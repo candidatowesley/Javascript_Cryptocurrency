@@ -1,0 +1,77 @@
+body{
+  background-color: #F2A849;
+}
+header
+{
+
+    height: 100px;
+    line-height: 100px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    display:inline-block;
+}
+header nav
+{
+    float: right;
+}
+header nav ul li a
+{
+    padding-right: 30px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+header nav ul li a:hover
+{
+    text-decoration: none;
+    color: #F27649;
+}
+
+.interactive-bg {
+  height: 100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/Slider1.jpg);
+  background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+  -webkit-box-shadow: inset 24px 4px 64px -24px rgba(71,71,71,1);
+  -moz-box-shadow: inset 24px 4px 64px -24px rgba(71,71,71,1);
+  box-shadow: inset 24px 4px 64px -24px rgba(71,71,71,1);
+  padding: 0px;
+}
+
+@media (max-width: 769px) {
+  .interactive-bg{
+    display: none
+  }
+}
+
+.input {
+  border-radius: 50px;
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  min-width: 150px;
+}
+
+.login-logo {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  max-height: 100px;
+
+}
+
+.columns{
+  margin: 0px;
+}
